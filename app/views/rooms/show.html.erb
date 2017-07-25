@@ -1,0 +1,45 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Room type:</strong>
+  <%= @room.room_type %>
+</p>
+
+<p>
+  <strong>Num rooms:</strong>
+  <%= @room.num_rooms %>
+</p>
+
+<p>
+  <strong>Square:</strong>
+  <%= @room.square %>
+</p>
+
+<p>
+  <strong>Floor:</strong>
+  <%= @room.floor %>
+</p>
+
+<p>
+  <strong>Building type:</strong>
+  <%= @room.building_type %>
+</p>
+
+<p>
+  <strong>Structure type:</strong>
+  <%= @room.structure_type %>
+</p>
+
+<p>
+  <strong>Floor height:</strong>
+  <%= @room.floor_height %>
+</p>
+
+<p>
+  <strong>査定結果</strong>
+  <%= @room.value %>
+</p>
+
+
+<%= link_to 'Edit', edit_room_path(@room) %> |
+<%= link_to 'Back', rooms_path %>
